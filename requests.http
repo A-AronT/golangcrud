@@ -1,0 +1,22 @@
+POST http://localhost:8080/bookcase
+Content-Type: application/json
+
+{
+  "title": "bookcase 1"
+}
+
+###
+
+PATCH http://localhost:8080/books/1
+Content-Type: application/json
+
+{
+  "title": "The Infinite Game"
+}
+
+###
+
+DELETE http://localhost:8080/books/1
+Content-Type: application/json
+
+###
