@@ -1,8 +1,9 @@
-POST http://localhost:8080/bookcase
+POST http://localhost:8080/books
 Content-Type: application/json
 
 {
-  "title": "bookcase 1"
+  "title": "raamatu pealkiri",
+  "author": "autor"
 }
 
 ###
@@ -16,7 +17,7 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:8080/books/1
+DELETE http://localhost:8080/books/2
 Content-Type: application/json
 
 ###

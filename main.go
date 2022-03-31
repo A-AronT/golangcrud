@@ -16,7 +16,9 @@ func main() {
 	// Routes
 	r.GET("/books", controllers.FindBooks)
 	r.GET("/books/:id", controllers.FindBook)
-	r.POST("/bookcase", controllers.CreateBookCase)
+	r.GET("/authors/", controllers.FindAuthors)
+	r.GET("/authors/:id", controllers.FindAuthor)
+	r.POST("/author", controllers.CreateAuthor)
 	r.POST("/books", controllers.CreateBook)
 	r.PATCH("/books/:id", controllers.UpdateBook)
 	r.DELETE("/books/:id", controllers.DeleteBook)

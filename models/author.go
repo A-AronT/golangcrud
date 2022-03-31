@@ -1,6 +1,6 @@
 package models
 
-type Bookcase struct {
+type Author struct {
 	ID     uint   `json:"id" gorm:"primary_key"`
-	Title  string `json:"title"`
+	Name  string `json:"name"`
 }

@@ -15,7 +15,7 @@ func ConnectDatabase() {
 	}
 
 	database.AutoMigrate(&Book{})
-	database.AutoMigrate(&Bookcase{})
+	database.AutoMigrate(&Author{})
 
 	DB = database
 }
